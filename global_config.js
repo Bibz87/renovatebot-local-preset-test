@@ -16,6 +16,9 @@ module.exports = {
     {
       matchManagers: ["terraform"],
       addLabels: [ "Terraform" ],
+      extends: [
+        "local>Bibz87/renovatebot-local-preset-test//presets/bar"
+      ],
     },
   ],
 };
